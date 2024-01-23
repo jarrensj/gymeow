@@ -11,17 +11,17 @@ const Gymeow: React.FC = () => {
   return (
     <div className="flex text-4xl font-bold">
       <span 
-        className={`cursor-pointer ${isGymHovered ? 'text-blue-500' : ''}`}
+        className={`${isGymHovered ? 'text-blue-500' : ''}`}
         onMouseEnter={() => setHoverPart('gym')}
         onMouseLeave={() => setHoverPart('')}
       >
         gy
       </span>
-      <span className={`cursor-pointer ${isGymHovered ? 'text-blue-500' : isEowHovered ? 'text-orange-500' : ''}`}>
+      <span className={`${isGymHovered ? 'text-blue-500' : isEowHovered ? 'text-orange-500' : ''}`}>
         m
       </span>
       <span 
-        className={`cursor-pointer ${isEowHovered ? 'text-orange-500' : ''}`}
+        className={`${isEowHovered ? 'text-orange-500' : ''}`}
         onMouseEnter={() => setHoverPart('eow')}
         onMouseLeave={() => setHoverPart('')}
       >
