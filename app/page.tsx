@@ -11,7 +11,7 @@ export default function Home() {
         for cat, gym, and internet enjoyers
       </p>
       <Link
-        href="https://discord.gg/MzcPg4mq" 
+        href="https://discord.gg/omakase" 
         className="mt-6 text-blue-600 hover:text-blue-800"
         target="_blank" 
         rel="noopener noreferrer"
