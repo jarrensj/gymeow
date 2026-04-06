@@ -18,6 +18,7 @@ gymeow makes your workouts visible to your community. When your gym buddies can 
 
 - **Organizations**: Create or join a group using a unique slug (e.g., `omakasemoney`, `sushi-run-club`)
 - **Workout Logging**: Log workouts in the app or by texting to a phone number
+- **iMessage/SMS Intake**: Text your workouts to log them automatically
 - **Community Feed**: See everyone's workout logs for any given day
 - **Calendar View**: Visual calendar showing workout activity across your org
 - **Unique Usernames**: Every user has a unique username for their profile
